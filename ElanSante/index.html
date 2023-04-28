@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élan Santé • Accueil</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="icon" type="image/x-icon" href="src/favicon/favicon.ico">
+</head>
+<body>
+    <div class="loader">
+        <div style="position: absolute; width: 100%; height: 100%; display: flex;">
+            <img id="loader-logo" src="src/images/logo_elan_sante.png" alt=":)">
+        </div>
+        <div class="loader-inner">
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar">
+<!--         <img style="position: absolute; top: 5px; left: 5px; height: 80%;" src="src/images/logo_elan_sante.png" alt="logo">
+ -->    <div class="navbar__container">
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                
+                <li class="navbar__item" id="navbar__linkLogoContainer">
+                    <a href="index.html" class="navbar__links" id="navbar__linkLogo">
+                        <img id="navbar__logo" src="src/images/logo_elan_sante.png" alt="logo">
+                        &nbsp;&nbsp; Élan Santé
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="newsletter.html" class="navbar__links">Newsletter</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="actualite.html" class="navbar__links">Actualité</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="presentation.html" class="navbar__links">Qui sommes-nous ?</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/secondProject/tech.html" class="navbar__links">Contact</a>
+                </li>
+                <li class="navbar__btn">
+                    
+                </li>
+            </ul> 
+            <a href="portail.html" class="button" id="navbar__profilButton">
+                <button class="btn-hover color-8">Mon profil</button>
+            </a>
+        </div>
+    </nav>
+    <div class="main__top">
+        <div class="mtCatalog__container">
+            <h1>Nos activités</h1>
+            <div class="mtCatalog__row mtCatalog__bckGndCol1" id="mtCatalog__RawID1">
+                <div class="mtCatalog__textContainer">
+                    <h1>ACTIVITÉ PHYSIQUE ADAPTÉE</h1>
+                    <!-- <h2>Pour maintenir sa musculature, son équilibre ainsi que sa mobilité et sa souplesse à travers des exercices variés,
+                        et ainsi conserver son autonomie</h2>
+                    <ul>
+                        <li>• 1 heure/semaine (hors vacances scolaires).</li>
+                        <li>• Groupes de 10 pers. max.</li>
+                        <li>• Certificat médical obligatoire.</li>
+                        <li>• Tapis de sol personnel demandé !!!</li>
+                    </ul> -->
+                </div>
+                <div class="mtCatalog__shapeContainer">
+                    <div class="mtCatalog__bubbleRectangle"></div>
+                    <div class="mtCatalog__bubbleCircle mtCatalog__bckGndCol1">
+                        <img id="chevron-right" src="src/items/chevron-right-solid.svg" alt="chevron-right-solid">
+                    </div>
+                </div>
+                <img class="mtCatalog__image" id="mtCatalog__ImgID1" width="5477" height="3651" src="src/images/mpCatalog1.jpg" alt="Illustration sport">
+            </div>
+            <div class="mtCatalog__row mtCatalog__bckGndCol2" id="mtCatalog__RawID2">
+                <div class="mtCatalog__textContainer">
+                    <h1>JOURNAL CRÉATIF</h1>
+                </div>
+                <div class="mtCatalog__shapeContainer">
+                    <div class="mtCatalog__bubbleRectangle"></div>
+                    <div class="mtCatalog__bubbleCircle mtCatalog__bckGndCol2">
+                        <img id="chevron-right" src="src/items/chevron-right-solid.svg" alt="chevron-right-solid">
+                    </div>
+                </div>
+                <img class="mtCatalog__image" id="mtCatalog__ImgID2" width="5200" height="4160" src="src/images/mpCatalog2.jpg" alt="Illustration sport">
+            </div>
+            <div class="mtCatalog__row mtCatalog__bckGndCol3" id="mtCatalog__RawID3">
+                <div class="mtCatalog__textContainer">
+                    <h1>SAPHRO-RELAXATION</h1>
+                </div>
+                <div class="mtCatalog__shapeContainer">
+                    <div class="mtCatalog__bubbleRectangle"></div>
+                    <div class="mtCatalog__bubbleCircle mtCatalog__bckGndCol3">
+                        <img id="chevron-right" src="src/items/chevron-right-solid.svg" alt="chevron-right-solid">
+                    </div>
+                </div>
+                <img class="mtCatalog__image" id="mtCatalog__ImgID3" width="800" height="800" src="src/images/mpCatalog3.png" alt="Illustration sport">
+            </div>
+            <div class="mtCatalog__row mtCatalog__bckGndCol4" id="mtCatalog__RawID4">
+                <div class="mtCatalog__textContainer">
+                    <h1>ÉTIREMENTS BIEN-ÊTRE</h1>
+                </div>
+                <div class="mtCatalog__shapeContainer">
+                    <div class="mtCatalog__bubbleRectangle"></div>
+                    <div class="mtCatalog__bubbleCircle mtCatalog__bckGndCol4">
+                        <img id="chevron-right" src="src/items/chevron-right-solid.svg" alt="chevron-right-solid">
+                    </div>
+                </div>
+                <img class="mtCatalog__image" id="mtCatalog__ImgID4" width="5467" height="3644" src="src/images/mpCatalog4.jpg" alt="Illustration sport">
+            </div>
+        </div> 
+
+        <div class="news__container">
+            <h1>Quoi de neuf ?</h1>
+
+        </div>
+    </div>
+    <div class="main__bloc_section">
+    </div>
+    <script src="app/app.js"></script>
+</body>
+</html>

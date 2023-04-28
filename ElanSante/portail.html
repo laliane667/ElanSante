@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élan Santé • Inscription</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/login-style.css">
+
+    <link rel="icon" type="image/x-icon" href="src/favicon/favicon.ico">
+</head>
+<body>
+    <nav class="navbar">
+<!--         <img style="position: absolute; top: 5px; left: 5px; height: 80%;" src="src/images/logo_elan_sante.png" alt="logo">
+ -->    <div class="navbar__container">
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                
+                <li class="navbar__item" id="navbar__linkLogoContainer">
+                    <a href="index.html" class="navbar__links" id="navbar__linkLogo">
+                        <img id="navbar__logo" src="src/images/logo_elan_sante.png" alt="logo">
+                        &nbsp;&nbsp; Élan Santé
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="newsletter.html" class="navbar__links">Newsletter</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/secondProject/tech.html" class="navbar__links">Contacts</a>
+                </li>
+                <li class="navbar__btn">
+                    
+                </li>
+            </ul> 
+            <a href="portail.html" class="button" id="navbar__profilButton">
+                <button class="btn-hover color-1">Mon profil</button>
+            </a>
+        </div>
+    </nav>
+    <div class="mainLogin__top">
+        <div class="conn__formContainer">
+            <div style="min-width: 350px; height: 10%; display: flex;">
+                <div class="conn__formHeaderContainer" id="conn__leftShadow">
+                    <div class="conn__headerTxtContainer">
+                        <h1>Se connecter</h1>
+                    </div>
+                </div>
+                <div class="conn__formHeaderContainer" id="conn__rightShadow">
+                    <div class="conn__headerTxtContainer">
+                        <h1>S'inscrire</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="conn__formBodyContainer">
+                <!-- <div class="signup_form">
+                    <form style="height:fit-content; width: 100%; margin: auto 0; display: flex; flex-direction: column; align-items: center;" action="includes/signup.inc.php" method="post">
+                        <input type="text" name="firstName" placeHolder="Prénom...">
+                        <input type="text" name="lastName" placeHolder="Nom...">
+                        <input type="text" name="email" placeHolder="E-mail...">
+                        <input type="text" name="uid" placeHolder="Pseudonyme...">
+                        <input type="password" name="pwd" placeHolder="Mot de passe...">
+                        <input type="password" name="pwdRepeat" placeHolder="Répéter mot de passe...">
+                        <button class="btn-hover color-1">S'inscrire</button>
+                    </form>
+                </div> -->
+                <div class="signup_form">
+                    <form id="portail__form" style="height:fit-content; width: 100%; margin: auto 0; display: flex; flex-direction: column; align-items: center;" action="includes/signup.inc.php" method="post">
+                        <input type="text" name="uid" placeHolder="E-mail ou pseudonyme...">
+                        <input type="password" name="pwd" placeHolder="Mot de passe...">
+                        <button class="btn-hover color-1">Se connecter</button>
+                    </form>
+                </div>
+            </div>
+            <!-- <img src="src/images/login.png" width="1024" height="1024" alt="Login Illustration"> -->
+        </div>
+    </div>
+    <div class="main__bloc_section">
+    </div>
+    <script src="app/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('BarlowCondensed-Light.eot');
+    src: url('BarlowCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('BarlowCondensed-Light.woff2') format('woff2'),
+        url('BarlowCondensed-Light.woff') format('woff'),
+        url('BarlowCondensed-Light.ttf') format('truetype'),
+        url('BarlowCondensed-Light.svg#BarlowCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

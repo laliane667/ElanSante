@@ -1,0 +1,107 @@
+
+.mainLogin__top{
+    width: 100%;
+    height: 790px;
+    display: flex;
+        background-image: linear-gradient(to right bottom, #051937, #004270, #006e89, #00996f, #00bf1e);
+
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+}
+.conn__formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 580px;
+    margin: auto;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .8);
+}
+
+.conn__formHeaderContainer{
+    width: 50%;
+    margin-top: -150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.conn__headerTxtContainer{
+    text-decoration-color: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .conn__headerTxtContainer:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+} */
+
+.conn__headerTxtContainer h1{
+    font-family: 'BarlowCondensed-Thin';
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+#conn__leftShadow{
+    box-shadow: none;
+}
+
+#conn__rightShadow{
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, .8) inset;
+}
+/* .conn__formContainer img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.conn__formBodyContainer{
+    width: 100%;
+    height: 90%;
+}
+
+.signup_form{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'BarlowCondensed-Thin';
+}
+
+.signup_form input[type=text], input[type=password]{
+    font-family: 'BarlowCondensed-Thin';
+    width: 90%;
+    padding: 7px 7px;
+    margin: 15px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+}
+.signup_form button{
+    margin-top: 10px;
+}
+
+/* .signup_form button[type=submit]{
+    cursor: pointer;
+    width: 100%;
+    padding: 5px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 2px;
+    font-size: 6rem;
+    font-weight: 100;
+}
+.signup_form button[type=submit]:hover{
+    transition: all 0.3s ease;
+    background-color: var(--second_color);
+} */
